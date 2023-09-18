@@ -10,7 +10,7 @@ ui <- fluidPage(
   titlePanel(
     title = div(style = "text-align: center;",
                 div("NBAPals", style = "font-size: 40px;"),
-                div("NBA data Analyzer", style = "font-size: 26px;")
+                div("NBA Data Analyzer", style = "font-size: 26px;")
     ),
     windowTitle = NULL
   ),
