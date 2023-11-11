@@ -1,0 +1,33 @@
+---
+title: "Web Development-FreeCodeCamp"
+output: html_notebook
+---
+
+# Introduction
+
+- After hearing about NOCODE websites and their benefits I was super optimistic and decided to give Bubble.io a try. Upon attempting to use this tool it seemed I was in over my head thinking building a website will be easy.
+- It turned out using Bubble is not as easy as it seems and does not present a friendly format in the same way we think of Excel when it comes to data analysis.
+- I was forced to go on a WebDev learning journey or Continuing education since I am tech savvy and I am trying to build a business. This will prove to be an interesting journey as I begin this likely with Coursera.
+
+# Production Courses
+
+## Free Code BootCamp
+
+- Link : https://www.freecodecamp.org/learn
+
+### Responsive Web Design
+
+- Link: https://www.freecodecamp.org/learn/2022/responsive-web-design/
+
+- I started with responsive web design.
+
+- The Mission: Build a cat photo app
+
+- What is HTML? Hypertext markup language. Gives webpages content structure. A way of writing the scientific concept or essay by using outlines. Simply put, HTML is outline (can call it structure) code. Recently I stumbled upon the guy who found the www. It does a little more than outline like adds buttons etc so when I think of it relative to shiny apps I will say it provides the UI for a webapp.
+
+- What is CSS? Cascading style sheets. A more refined tool to style websites or webapps.
+
+- What is one way to help with SEO and accessibility? The use of elements that identify content areas. what does this mean? Areas for different kind of content can be demarcated.
+
+- The Cat App is complete. My version of Hello World in HTML.
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html> <!--declaration ensures the browser tries to meet industry wide specifications-->
+<html lang = en>
+
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+  <meta charset="UTF-8">
+  <title>First-learning-bs</title>
+</head>
+
+<body>
+
+  <main>
+  
+    <!-- img is a self closing tag with an src attribute -->
+    <h1><img src="https://cdn.freecodecamp.org/platform/universal/fcc_secondary.svg"></h1>
+    <h2>CatPhotoApp</h2>
+    <h3>CatPhotoApp</h3>
+    <h4>CatPhotoApp</h4>
+    <h5>CatPhotoApp</h5>
+    <h6>CatPhotoApp</h6> <!-- not a real header, headers end at 6 -->
+  
+    <!-- a is an anchor to links and attributes exist in opening tags (href,target etc)-->
+    <section>
+      <h2>Cat Photos</h2>
+      <p>See more <a target=_blank href='https://freecatphotoapp.com'>cat photos</a> in our gallery.</p>
+      <!-- alt or alternate attrib gives the user a hint if img load fails -->
+      <a href = "https://freecatphotoapp.com"><img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back"></a> 
+    </section>
+    
+    <section>
+      <h2>Cat Lists</h2>
+      <h3> Things cats love </h3>
+      <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+      </ul>
+       <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+        <figcaption>Cats <em> love </em> lasagna.</figcaption>
+       </figure>
+       <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li> 
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src = "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt = "Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+        </figure>
+        
+    </section>
+    
+    <section>
+      <h2>Cat Form</h2>
+      <form action = "https://freecatphotoapp.com/submit-cat-photo">
+        <input type=text name="catphotourl" placeholder = "cat photo URL" required> <!--could be in quotations based on the code platform-->
+        <button type=submit>Submit</button>
+        
+        <fieldset>
+          <legend> Is your cat an indoor or outdoor cat?</legend>
+          <label><input type="radio" id = indoor name = "indoor-outdoor" value = indoor checked> Indoor</label>
+          <label><input id="outdoor" type="radio" name = "indoor-outdoor" value = outdoor > Outdoor</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend>What's your cat's personality?</legend>
+          <input id="loving" type="checkbox" name = "personality" value = loving checked> <label for = "loving">Loving</label>
+          <input id="lazy" type="checkbox" name = "personality"> <label for = "lazy" value = lazy>Lazy</label>
+          <input id="energetic" type="checkbox" name = "personality" value = energetic> <label for = "energetic">Energetic</label>
+        </fieldset>
+          
+      </form>
+    </section>
+    
+  </main>
+  
+   <footer>
+    <p>No Copyright - <a href = "https://www.freecodecamp.org">freeCodeCamp.org</a> </p>
+   </footer>
+
+</body>
+
+</html>
