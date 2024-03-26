@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang = en>
+
+<head>
+<style type="text/css">
+.inline {
+  background-color: #f7f7f7;
+  border:solid 1px #B0B0B0;
+}
+.error {
+	font-weight: bold;
+	color: #FF0000;
+}
+.warning {
+	font-weight: bold;
+}
+.message {
+	font-style: italic;
+}
+.source, .output, .warning, .error, .message {
+	padding: 0 1em;
+  border:solid 1px #F7F7F7;
+}
+.source {
+  background-color: #f5f5f5;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+.hl.num {
+  color: #AF0F91;
+}
+.hl.str {
+  color: #317ECC;
+}
+.hl.com {
+  color: #AD95AF;
+  font-style: italic;
+}
+.hl.opt {
+  color: #000000;
+}
+.hl.std {
+  color: #585858;
+}
+.hl.kwa {
+  color: #295F94;
+  font-weight: bold;
+}
+.hl.kwb {
+  color: #B05A65;
+}
+.hl.kwc {
+  color: #55aa55;
+}
+.hl.kwd {
+  color: #BC5A65;
+  font-weight: bold;
+}
+</style>
+  <meta charset=UTF-8> <!--self closes-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--mobile responsive meta-->
+  <title>Cafe Menu</title> <!--not visible in the browser but SEO useful-->
+  <link rel = stylesheet href = style.css>
+</head>
+
+<body>
+  <div class = menu>
+    <main>
+      <h1>Camper Cafe</h1> <!--Top left corner-->
+      <p class = origin>Est. 2020</p>
+      
+      <hr> <!--section divider-->
+      
+      <section>
+        <h2>Coffee</h2>
+        <!--image is inline and i need to make it behave like a block element-->
+          <img img src = "https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="Coffee icon">
+          <article class = item>
+            <p class = flavor>French Vanilla</p><p class = price>3.00</p>
+          </article>
+          
+          <article class = item>
+            <p class = flavor>Caramel Macchiato</p><p class = price>3.75</p>
+          </article>
+            
+          <article class = item>
+            <p class = flavor>Pumpkin Spice</p><p class = price>3.50</p>
+          </article>
+            
+          <article class = item>
+            <p class = flavor>Hazelnut</p><p class = price>4.00</p>
+          </article>
+          
+          <article class = item>
+            <p class = flavor>Mocha</p><p class = price>4.50</p>
+          </article>
+          
+      </section>
+  
+      <section>
+        <h2>Desserts</h2>
+        <img img src = "https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon">
+        
+        <article class = item> <!--class is an attribute and item is the value-->
+          <p class = dessert>Donut</p><p class = price>1.50</p>
+        </article>
+        
+         <article class = item> <!--class is an attribute and item is the value-->
+          <p class = dessert>Cherry Pie</p><p class = price>2.75</p>
+         </article>
+        
+        <article class = item> <!--class is an attribute and item is the value-->
+          <p class = dessert>Cheesecake</p><p class = price>3.00</p>
+        </article>
+        
+         <article class = item> <!--class is an attribute and item is the value-->
+          <p class = dessert>Cinnamon Roll</p><p class = price>2.50</p>
+         </article>
+      </section>
+  
+    </main>
+    
+    <hr class = bottom-line>
+    
+    <footer>
+      <p>
+        <a href="https://www.freecodecamp.org" target=_blank>Visit our website</a></p>
+      <p class = address>
+        <a href="https://www.freecodecamp.org" target=_blank>123 Free Code Camp Drive</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
